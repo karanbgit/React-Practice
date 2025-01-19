@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({ username , btnText}) {
+function Card({ username , btnText="Clicked Me"}) {
 
     console.log(username);
 
