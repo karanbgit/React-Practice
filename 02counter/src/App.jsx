@@ -12,7 +12,14 @@ function App() {
     // counter = counter + 1
 
     if (counter < 20) {
-      setCounter(counter + 1)
+
+      // setCounter(counter + 1)   both method are used this is only one increase 
+
+      // And this method increase 4 count 
+      setCounter(prevCounter => prevCounter + 1)  
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
     }
 
   }
@@ -23,8 +30,6 @@ function App() {
       setCounter(counter - 1);
     }
   }
-
-
 
   return (
     <>
