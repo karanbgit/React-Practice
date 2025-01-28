@@ -21,7 +21,6 @@ function App() {
               style={{ backgroundColor: "olive" }} >Olive
             </button>
 
-
             <button onClick={() => setColor("red")}
               className="outline-none px-4 py-1 rounded-full shadow-lg text-white"
               style={{ backgroundColor: "red" }} >Red
