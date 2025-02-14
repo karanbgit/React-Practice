@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -32,12 +32,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-150" src="https://imgs.search.brave.com/9RtazSD1Abn-21azAF-RBbNxa8tQ6r-DUlJzCtjpk-4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by91/bHRyYS1kZXRhaWxl/ZC1uZWJ1bGEtYWJz/dHJhY3Qtd2FsbHBh/cGVyLTEwXzE1NjIt/NzQ1LmpwZz9zZW10/PWFpc19oeWJyaWQ" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-150 w-150" src="https://img.freepik.com/free-photo/glowing-spaceship-orbits-sphere-deep-space-generated-by-ai_188544-9658.jpg?ga=GA1.1.476001315.1739516028&semt=ais_hybrid" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
